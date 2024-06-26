@@ -1,0 +1,21 @@
+<a href="/post/{{this.id}}">
+    <div class="bg-gray-200 shadow-lg rounded-lg mx-4 md:mx-auto my-6 max-w-md md:max-w-2xl ">
+        <!--horizantil margin is just for display-->
+        <div class="flex items-start px-4 py-6">
+            <div class="w-full">
+                <div class="flex justify-end">
+                    <div class="flex items-center justify-end">
+                        <small class="text-xs text-gray-700">Posted by {{this.user.username}} on {{formatDate
+                            this.postDate}}</small>
+                    </div>
+                </div>
+                <h3 class="mt-3 text-gray-700 text-lg font-bold">
+                    {{this.title}}
+                </h3>
+                <p class="mt-3 text-gray-700 text-md">
+                    {{this.description}}
+                </p>
+            </div>
+        </div>
+    </div>
+</a>
