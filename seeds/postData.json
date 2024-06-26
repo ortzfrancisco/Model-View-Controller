@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Tech Blog Intro",
+        "description": "Welcome to the Tech Blog. This is a site for tech thoughts and discussions.",
+        "user_id": 1
+    },
+    {
+        "title": "Test Post 1",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam molestias sequi impedit corporis at sit eius, debitis accusantium ea quisquam, atque commodi ullam, magni dolores dolorem sint? Eius, nemo in.",
+        "user_id": 2
+    },
+    {
+        "title": "Test Post 2",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam molestias sequi impedit corporis at sit eius, debitis accusantium ea quisquam, atque commodi ullam, magni dolores dolorem sint? Eius, nemo in.",
+        "user_id": 3,
+        "postDate": "2022-03-01T14:30:00.000Z"
+    },
+    {
+        "title": "Test Post 3",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam molestias sequi impedit corporis at sit eius, debitis accusantium ea quisquam, atque commodi ullam, magni dolores dolorem sint? Eius, nemo in.",
+        "user_id": 1,
+        "postDate": "2022-03-01T14:30:00.000Z"
+    },
+    {
+        "title": "Test Post 4",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam molestias sequi impedit corporis at sit eius, debitis accusantium ea quisquam, atque commodi ullam, magni dolores dolorem sint? Eius, nemo in.",
+        "user_id": 4,
+        "postDate": "2022-03-01T14:30:00.000Z"
+    }
+]
