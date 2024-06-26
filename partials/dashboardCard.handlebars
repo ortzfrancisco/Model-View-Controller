@@ -1,0 +1,12 @@
+<div data-post-id="{{this.id}}" id="{{this.id}}" class="blog-post block max-w-sm p-2 bg-white border border-gray-200 rounded-lg shadow hover:bg-teal-100">
+<div data-post-id="{{this.id}}" class="header flex justify-between">
+<h5 class="mb-2 text-xl font-semibold mr-12 tracking-tight text-gray-900 ">{{this.title}}</h5>
+<p>{{formatDate this.postDate}}</p>
+</div>
+<div data-post-id="{{this.id}}" class="edit-form hidden">
+<textarea class="title-update w-full p-1">{{this.title}}</textarea>
+<textarea class="content-update w-full p-1">{{this.description}}</textarea>
+<button class="update-btn w-full my-1 bg-teal-600 hover:bg-teal-700 text-white p-1 rounded-md">Update</button>
+<button class="delete-btn w-full my-1 bg-red-600 hover:bg-red-700 text-white p-1 rounded-md">Delete</button>
+</div>
+</div>
