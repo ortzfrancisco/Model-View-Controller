@@ -1,0 +1,45 @@
+<div data-postId="{{post.id}}" class="bg-gray-200 shadow-lg rounded-lg mx-4 md:mx-auto my-6 max-w-md md:max-w-2xl ">
+    <div class="flex items-start px-4 py-6">
+        <div class="w-full">
+            <div class="flex justify-end">
+                <div class="flex items-center justify-end">
+                    <small class="text-xs text-gray-700">Posted by {{post.user.username}} on {{formatDate
+                        post.postDate}}</small>
+                </div>
+            </div>
+            <h3 class="mt-3 text-gray-700 text-lg font-bold">
+                {{post.title}}
+            </h3>
+            <p class="mt-3 text-gray-700 text-md">
+                {{post.description}}
+            </p>
+        </div>
+    </div>
+</div>
+
+
+{{#if loggedIn}}
+<div class="bg-gray-200 shadow-lg rounded-lg mx-4 md:mx-auto my-6 max-w-md md:max-w-2xl ">
+    <div class="w-full">
+        <div class="flex justify-center m-1 font-semibold p-1">Leave a Comment</div>
+        <div class="flex justify-center">
+            <textarea id="commentInput" class="w-11/12 my-1"></textarea>
+        </div>
+        <div class="flex justify-center">
+            <button id="submitComment"
+                class="my-1 bg-teal-500 hover:bg-teal-600 text-white p-1 rounded w-11/12 my-3">Submit</button>
+        </div>
+    </div>
+</div>
+</div>
+{{/if}}
+
+<div class="comments-container">
+    <h3 class="flex text-xl justify-center text-white">Comments</h3>
+    {{#each comments}}
+    {{> commentCard}}
+    {{/each}}
+</div>
+
+
+<script src="/js/comment.js"></script>
