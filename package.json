@@ -1,0 +1,15 @@
+{
+    "name": "model-view-controller",
+    "version": "1.0.0",
+    "description": "Your project description",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.19.2",
+        "sequelize": "^6.37.3"
+    }
+}
